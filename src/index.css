@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Add your own styles here */
+@layer components {
+    .bg {
+        background: linear-gradient(171.01deg, #404EED 6.98%, #1D236D 156.3%);
+    }
+
+    .bg1 {
+        background: linear-gradient(90.32deg, #404EED 0%, #1D236D 100%);
+    }
+
+    .circle {
+
+        width: 16px;
+        height: 16px;
+        left: 734px;
+        top: 896px;
+        border-radius: 50%;
+        background: #404EED;
+    }
 }
